@@ -46,7 +46,8 @@
    },
    "provides" : {
       "Alien::Gimp" : {
-         "file" : "AGversion.pm"
+         "file" : "AGversion.pm",
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -57,5 +58,5 @@
          "web" : "https://github.com/mohawk2/Alien-Gimp"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
