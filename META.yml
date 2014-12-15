@@ -20,10 +20,14 @@ no_index:
   directory:
     - t
     - inc
+provides:
+  Alien::Gimp:
+    file: META.json
+    version: '0.02'
 requires:
   ExtUtils::Depends: '0.402'
   IO::All: '0'
   perl: '5.014001'
 resources:
   repository: git://github.com/mohawk2/Alien-Gimp
-version: '0.01'
+version: '0.02'
