@@ -23,10 +23,10 @@ no_index:
     - inc
 provides:
   Alien::Gimp:
-    file: AGversion.pm
-    version: '0.04'
+    file: lib/Alien/Gimp.pm.PL
+    version: '0.05'
 requires:
   perl: '5.014001'
 resources:
   repository: git://github.com/mohawk2/Alien-Gimp
-version: '0.04'
+version: '0.05'
