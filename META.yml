@@ -3,7 +3,8 @@ abstract: unknown
 author:
   - unknown
 build_requires:
-  ExtUtils::MakeMaker: '0'
+  ExtUtils::Depends: '0.402'
+  IO::All: '0'
   Inline: '0.78'
   Inline::C: '0.67'
   Test::More: '0.88'
@@ -22,12 +23,9 @@ no_index:
     - inc
 provides:
   Alien::Gimp:
-    file: META.json
-    version: '0.02'
+    file: AGversion.pm
 requires:
-  ExtUtils::Depends: '0.402'
-  IO::All: '0'
   perl: '5.014001'
 resources:
   repository: git://github.com/mohawk2/Alien-Gimp
-version: '0.02'
+version: '0.03'
